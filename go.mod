@@ -116,7 +116,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/linxGnu/grocksdb v1.7.16 // indirect
+	github.com/linxGnu/grocksdb v1.8.12 // indirect
 	github.com/manifoldco/promptui v0.9.0 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
@@ -266,5 +266,6 @@ replace github.com/cosmos/cosmos-sdk => github.com/lavanet/cosmos-sdk v0.47.13-l
 
 replace (
 	cosmossdk.io/api => cosmossdk.io/api v0.3.1
+	github.com/cosmos/cosmos-db => github.com/cosmos/cosmos-db v1.0.2
 	golang.org/x/exp => golang.org/x/exp v0.0.0-20230711153332-06a737ee72cb
 )
